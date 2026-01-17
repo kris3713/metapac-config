@@ -16,7 +16,7 @@ enabled_backends = [
   'npm',
   'pnpm',
   'bun',
-  'cargo',
+  'cargo'
 ]
 
 # If this is `false` all toml files recursively found in the groups folder
@@ -42,13 +42,13 @@ hostname_groups_enabled = false
 # laptop = ['relative_group']
 # server = ['relative_group']
 
-# [arch]
-# # Since pacman, pamac, paru, pikaur and yay all operate on the same package database
-# # they are mutually exclusive and so you must pick which one you want
-# # metapac to use.
-# # Must be one of: ['pacman', 'pamac', 'paru', 'pikaur', 'yay']
-# # Default: 'pacman'
-# package_manager = 'paru'
+[arch]
+# Since pacman, pamac, paru, pikaur and yay all operate on the same package database
+# they are mutually exclusive and so you must pick which one you want
+# metapac to use.
+# Must be one of: ['pacman', 'pamac', 'paru', 'pikaur', 'yay']
+# Default: 'pacman'
+package_manager = 'paru'
 
 [brew]
 # If this is `true` then brew packages default to using the `--quarantine`
@@ -85,11 +85,11 @@ systemwide = true
 # Default: 'code'
 variant = 'code'
 
-# [zypper]
-# # Since OpenSUSE Leap and Tumbleweed should be updated with different commands
-# # (see https://en.opensuse.org/System_Updates for more details), you can set how
-# # metapac updates system packages.
-# # If this is `false` then the system is updated with the subcommand `update` (`up`).
-# # If this is `true` then the system is updated with the subcommand `dist-upgrade` (`dup`).
-# # Default: false
-# distribution_upgrade = false
+[zypper]
+# Since OpenSUSE Leap and Tumbleweed should be updated with different commands
+# (see https://en.opensuse.org/System_Updates for more details), you can set how
+# metapac updates system packages.
+# If this is `false` then the system is updated with the subcommand `update` (`up`).
+# If this is `true` then the system is updated with the subcommand `dist-upgrade` (`dup`).
+# Default: false
+distribution_upgrade = false
