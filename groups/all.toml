@@ -795,12 +795,10 @@ dnf = [
   'kio-admin',
   'kio-gdrive',
   'kjournald',
-  'kmail',
   'kmenuedit',
   'kmod-nvidia-6.17.11-300.fc43.x86_64',
   'kmod-nvidia-6.18.5-200.fc43.x86_64',
   'kmouth',
-  'kmplot',
   'koji',
   'kolourpaint',
   'konsole',
@@ -1758,7 +1756,6 @@ dnf = [
   'systemd-devel',
   'systemd-oomd-defaults',
   'systemtap',
-  'taidan',
   'tar',
   'tcp_wrappers-libs',
   'tcpdump',
@@ -1992,7 +1989,6 @@ dnf = [
   'tigervnc-license',
   'tigervnc-server-minimal',
   'time',
-  'timeshift',
   'tiwilink-firmware',
   'tixati',
   'tlp',
@@ -2115,7 +2111,7 @@ dnf = [
   'zoxide',
   'zram-generator-defaults',
   'zstd',
-  'zziplib',
+  'zziplib'
 ]
 
 flatpak = [
