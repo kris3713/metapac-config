@@ -2111,7 +2111,8 @@ dnf = [
   'zoxide',
   'zram-generator-defaults',
   'zstd',
-  'zziplib'
+  'zziplib',
+  'uv'
 ]
 
 flatpak = [
