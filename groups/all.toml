@@ -2097,7 +2097,6 @@ dnf = [
   'xwaylandvideobridge',
   'xz-lzma-compat',
   'yara',
-  'yazi',
   'yelp',
   'yelp-libs',
   'yelp-xsl',
