@@ -1,6 +1,5 @@
 brew = [
   "ast-grep",
-  "bun",
   "editorconfig-checker",
   "font-golos-text",
   "font-manrope",
