@@ -46,9 +46,9 @@ hostname_groups_enabled = false
 # Since pacman, pamac, paru, pikaur and yay all operate on the same package database
 # they are mutually exclusive and so you must pick which one you want
 # metapac to use.
-# Must be one of: ['pacman', 'pamac', 'paru', 'pikaur', 'yay']
-# Default: 'pacman'
-package_manager = 'paru'
+# Must be one of: ["pacman", "pamac", "paru", "pikaur", "yay"]
+# Default: "pacman"
+package_manager = "paru"
 
 [brew]
 # If this is `true` then brew packages default to using the `--quarantine`
@@ -56,7 +56,7 @@ package_manager = 'paru'
 # If this is `false` then brew packages default to using the `--no-quarantine`
 # option.
 # Default: true
-quarantine = false
+quarantine = true
 
 [cargo]
 # Whether to default to installing cargo packages with the `--locked` option.
@@ -69,21 +69,13 @@ locked = false
 # Default: false
 binstall = false
 
-[flatpak]
-# If this is `true` then flatpak packages default to using the `--system`
-# option.
-# If this is `false` then flatpak packages default to using the `--user`
-# option.
-# Default: true
-systemwide = true
-
 [vscode]
 # Since VSCode and VSCodium both operate on the same package database
 # they are mutually exclusive and so you must pick which one you want
 # metapac to use.
-# Must be one of: ['code', 'codium']
-# Default: 'code'
-variant = 'code'
+# Must be one of: ["code", "codium"]
+# Default: "code"
+variant = "code"
 
 [zypper]
 # Since OpenSUSE Leap and Tumbleweed should be updated with different commands
