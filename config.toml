@@ -58,7 +58,7 @@ package_manager = "paru"
 # If this is `false` then brew packages default to using the `--no-quarantine`
 # option.
 # Default: true
-quarantine = true
+# quarantine = true
 
 [cargo]
 # Whether to default to installing cargo packages with the `--locked` option.
