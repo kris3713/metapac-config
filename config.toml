@@ -10,6 +10,8 @@
 # from the [hostname_enabled_backends] config table.
 # Default: []
 enabled_backends = [
+  'uv',
+  'pipx',
   'snap',
   'flatpak',
   'brew',
