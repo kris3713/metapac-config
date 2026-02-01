@@ -1,5 +1,6 @@
 brew = { packages = [
   "ast-grep",
+  "bun",
   "font-golos-text",
   "font-manrope",
   "font-metropolis",
@@ -317,7 +318,6 @@ dnf = { repos = [
   "expat",
   "falcond",
   "falcond-profiles",
-  "fastfetch",
   "fcitx5-configtool",
   "fcitx5-gtk",
   "fcitx5-gtk2",
@@ -887,6 +887,7 @@ dnf = { repos = [
   "ksnip",
   "ksshaskpass",
   "kunifiedpush",
+  "kuro",
   "kwalletmanager5",
   "kwayland-integration",
   "kweather",
