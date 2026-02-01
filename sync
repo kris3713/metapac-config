@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+ALL_PKGS_FILE="$SCRIPT_DIR/groups/all.toml"
+
+rm -rv "$ALL_PKGS_FILE"
+metapac unmanaged > "$ALL_PKGS_FILE"
+tombi format "$ALL_PKGS_FILE"
