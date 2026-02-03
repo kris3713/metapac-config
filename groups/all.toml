@@ -22,14 +22,13 @@ brew = { packages = [
   "trzsz-ssh",
   "witr",
 ] }
-bun = { packages = ["pnpm"] }
+bun = { packages = ["opencode-ai", "pnpm"] }
 cargo = { packages = [
   { name = "metapac", options = { version = "0.9.3", features = [] } },
   { name = "rebos", options = { version = "3.5.2", features = [] } },
 ] }
 dnf = { repos = [
   "copr.fedorainfracloud.org/3fz-asa/mtoc",
-  "copr.fedorainfracloud.org/ackerman/mission-center",
   "copr.fedorainfracloud.org/alternateved/keyd",
   "copr.fedorainfracloud.org/anifyuliansyah/ab-download-manager",
   "copr.fedorainfracloud.org/apicalshark/qBittorrent-Enhanced-Edition",
@@ -120,6 +119,7 @@ dnf = { repos = [
   "at-spi2-atk-devel",
   "at-spi2-core",
   "at-spi2-core-devel",
+  "athas",
   "atheros-firmware",
   "atk",
   "atk-devel",
@@ -1221,6 +1221,7 @@ dnf = { repos = [
   "mbedtls-devel",
   "mcelog",
   "mcontrolcenter",
+  "md4c",
   "mdadm",
   "mdevctl",
   "media-hoarder",
@@ -1369,6 +1370,7 @@ dnf = { repos = [
   "papirus-icon-theme",
   "papirus-icon-theme-dark",
   "paps",
+  "parabolic",
   "parquet-libs",
   "pass",
   "passwdqc",
@@ -1895,6 +1897,7 @@ dnf = { repos = [
   "rsms-inter-fonts",
   "rsync",
   "rsyslog",
+  "rune-player",
   "rust",
   "rust2rpm",
   "rust2rpm-helper",
@@ -2400,7 +2403,6 @@ flatpak = { repos = [
   { name = "system:org.kde.koko", options = { remote = "flathub" } },
   { name = "system:org.kde.krita", options = { remote = "flathub" } },
   { name = "system:org.nickvision.tagger", options = { remote = "flathub" } },
-  { name = "system:org.nickvision.tubeconverter", options = { remote = "flathub" } },
   { name = "system:org.shotcut.Shotcut", options = { remote = "flathub" } },
   { name = "system:org.speedcrunch.SpeedCrunch", options = { remote = "flathub" } },
   { name = "system:org.subtitld.Subtitld", options = { remote = "flathub" } },
@@ -2473,7 +2475,9 @@ uv = { packages = [
   "pgcli",
   "photorec-sorter",
   "pipx",
+  "pydoclint",
   "reclaimed",
   "rpm-spec-language-server",
   "scrape-cli",
+  "yamllint",
 ] }
